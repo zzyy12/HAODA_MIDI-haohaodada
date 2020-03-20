@@ -1,0 +1,49 @@
+<!-- type="company" block="block/HAODA_MIDI.js" generator="generator/HAODA_MIDI.js" lib="HAODA_MIDI"-->
+<script type="text/javascript" src="js\\blocks\\HAODA_MIDI.js"></script>
+<script type="text/javascript" src="js\\generators\\HAODA_MIDI.js"></script>
+
+<category id="HAODA_MIDI" name="HAODA_MIDI" colour="#17959D">
+    <block type="haoda_midi_set_ins_type">
+        <value name="port">
+            <shadow type="pins_digital"></shadow>
+        </value>
+        <value name="channel">
+            <shadow type="haoda_midi_channel"></shadow>
+        </value>
+        <value name="type">
+            <shadow type="haoda_midi_timbre"></shadow>
+        </value>
+    </block>
+    <block type="haoda_midi_send">
+        <value name="port">
+            <shadow type="pins_digital"></shadow>
+        </value>
+        <value name="channel">
+            <shadow type="haoda_midi_channel"></shadow>
+        </value>
+        <value name="scale">
+            <shadow type="haoda_midi_scale"></shadow>
+        </value>
+        <value name="diacritical">
+            <shadow type="haoda_midi_diacritical"></shadow>
+        </value>
+		 <value name="vol">
+            <shadow type="math_number">
+                <field name="NUM">50</field>
+            </shadow>
+        </value>
+    </block>
+    <block type="haoda_midi_send_percussion">
+        <value name="port">
+            <shadow type="pins_digital"></shadow>
+        </value>
+        <value name="type">
+            <shadow type="haoda_midi_timbre_percussion"></shadow>
+        </value>
+		<value name="vol">
+            <shadow type="math_number">
+                <field name="NUM">50</field>
+            </shadow>
+        </value>
+    </block>
+</category>

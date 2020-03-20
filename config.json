@@ -1,0 +1,22 @@
+{
+  "name": {
+      "zh_cn": "HAODA_MIDI"
+  },
+  "description": {
+      "zh_cn": "MIDI数字音乐"
+  },
+  "version": "0.0.222",
+  "core": ["arduino-haohaodada"],
+  "handwareList":["HAODA_MIDI.h"],
+  "auther": "Dolphin",
+  "email": "hdDolphin@haohaodada.com",
+  "homepage": "haohaodada.com",
+  "files": [
+    "images/HAODA_MIDI.jpg",
+    "js/blocks/HAODA_MIDI.js",
+    "js/generator/HAODA_MIDI.js",
+    "src/HAODA_MIDI/HAODA_MIDI.h",
+    "HAODA_MIDI.xml",
+    "config.json"
+  ]
+}
